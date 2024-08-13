@@ -64,6 +64,7 @@ BULLETTRAIN_PROMPT_ORDER=(
 # ZSH completion
 autoload -Uz compinit
 compinit
+neofetch
 
 # Add /usr/local/bin to PATH
 export PATH="/usr/local/bin:$PATH"
@@ -76,3 +77,6 @@ export NVM_DIR="$HOME/.nvm"
 # Bun setup
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
+
+# Neovim setup
+export PATH="$PATH:/opt/nvim-linux64/bin"
