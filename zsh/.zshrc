@@ -43,12 +43,13 @@ git_prompt() {
 }
 
 #Bullet Train Theme Options
-BULLETTRAIN_PROMPT_CHAR="%F{white}%} ➝  "
-BULLETTRAIN_DIR_BG=yellow
+BULLETTRAIN_PROMPT_CHAR="%F{white}%} 󱞩  "
+BULLETTRAIN_DIR_BG=yellow 
 BULLETTRAIN_DIR_FG=black
-BULLETTRAIN_CUSTOM_BG=cyan
+BULLETTRAIN_CUSTOM_BG=blue
 BULLETTRAIN_CUSTOM_FG=black
-BULLETTRAIN_CUSTOM_MSG=
+BULLETTRAIN_GIT_BG=green
+BULLETTRAIN_CUSTOM_MSG=
 BULLETTRAIN_PROMPT_ORDER=(
   #time
   custom
@@ -80,3 +81,5 @@ export PATH=$BUN_INSTALL/bin:$PATH
 
 # Neovim setup
 export PATH="$PATH:/opt/nvim-linux64/bin"
+# bun completions
+[ -s "/home/mikekey/.bun/_bun" ] && source "/home/mikekey/.bun/_bun"

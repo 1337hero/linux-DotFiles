@@ -62,6 +62,7 @@ alias projects="cd ~/Projects"
 alias srwp="cd ~/Projects/SRWP"
 alias ciss="cd ~/Projects/CISS"
 alias dotfiles="cd ~/Dotfiles"
+alias games="cd ~/Games"
 
 # Open VS Code in the current directory or workspace
 function smartvsc() {
@@ -78,5 +79,5 @@ alias vsc=smartvsc
 
 # Misc Aliases
 alias nf="neofetch"
-alias minecraft="~/Games/Minecraft\ Server/manage_server.sh"
+alias minecraft="~/Games/minecraft-server/manage_server.sh"
 
