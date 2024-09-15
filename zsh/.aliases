@@ -80,4 +80,4 @@ alias vsc=smartvsc
 # Misc Aliases
 alias nf="neofetch"
 alias minecraft="~/Games/minecraft-server/manage_server.sh"
-
+alias raidCheck="sudo mdadm --detail /dev/md127"
