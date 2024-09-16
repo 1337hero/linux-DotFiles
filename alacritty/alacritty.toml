@@ -11,7 +11,7 @@ blur = false
 
 [font]
 normal = { family = "MonoLisa", style = "Light" }
-size = 16
+size = 14
 
 [colors]
 

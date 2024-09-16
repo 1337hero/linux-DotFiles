@@ -38,13 +38,8 @@ alias gaa="g add -A"
 alias gc="g commit -m"
 alias gpo="g push origin"
 alias gb="g branch"
-alias gsw="g switch"
-alias gt="g worktree list"
 alias gco="g checkout"
 alias gbl="g branch --list"
-
-# New alias to open projects folder in VS Code
-alias vsc="code ."
 
 # TMUX Aliases
 alias tl="tmux ls"
@@ -75,9 +70,21 @@ function smartvsc() {
         code .
     fi
 }
-alias vsc=smartvsc
 
 # Misc Aliases
 alias nf="neofetch"
 alias minecraft="~/Games/minecraft-server/manage_server.sh"
 alias raidCheck="sudo mdadm --detail /dev/md127"
+
+#Plex Aliases
+alias plexStart="sudo systemctl start plexmediaserver.service"
+alias plexStop="sudo systemctl stop plexmediaserver.service"
+alias plexRestart="sudo systemctl restart plexmediaserver.service"
+alias plexStatus="sudo systemctl status plexmediaserver.service"
+
+#Workflow Stuff
+
+
+#Arch Shortcuts
+alias pm="sudo pacman -S"
+alias pmr="sudo pacman -Rs"

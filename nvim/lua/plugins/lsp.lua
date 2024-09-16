@@ -29,7 +29,6 @@ return {
                 "lua_ls",
                 "html",
                 "jsonls",
-                "tsserver",
                 "eslint",
                 "astro",
                 "cssls",
