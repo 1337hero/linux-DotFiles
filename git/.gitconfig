@@ -1,7 +1,7 @@
 [user]
 	name = Mike Key
 	email = mike@1337hero.com
-	signingkey = 55C13E0BA7652A63
+	signingkey = C8040F4336BE3CD128EA3323025A94DC98C98688 
 
 [github]
   user = 1337hero
@@ -48,6 +48,7 @@
 
 [url "ssh://git@"]
   insteadOf = git://
+
 [core]
-	excludesfile = /Users/mikekey/dotfiles/git/.gitignore
-	editor = nano
+	excludesfile = ~/.gitignore
+	editor = nvim

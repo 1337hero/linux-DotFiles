@@ -3,11 +3,9 @@ unset zle_bracketed_paste
 autoload -Uz compinit && compinit
 
 source ~/Dotfiles/zsh/.aliases
-source ~/Dotfiles/zsh/.safe-paste
 source ~/Dotfiles/zsh/.history
 source ~/Dotfiles/zsh/.zsh-git
 source ~/Dotfiles/zsh/.zsh-theme
-source ~/Dotfiles/zsh/.pomodoro
 
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000
@@ -44,11 +42,11 @@ git_prompt() {
 
 #Bullet Train Theme Options
 BULLETTRAIN_PROMPT_CHAR="%F{white}%} 󱞩  "
-BULLETTRAIN_DIR_BG=yellow 
+BULLETTRAIN_DIR_BG=#eed49f 
 BULLETTRAIN_DIR_FG=black
-BULLETTRAIN_CUSTOM_BG=blue
+BULLETTRAIN_CUSTOM_BG=#cad3f5
 BULLETTRAIN_CUSTOM_FG=black
-BULLETTRAIN_GIT_BG=green
+BULLETTRAIN_GIT_BG=#a6da95
 BULLETTRAIN_CUSTOM_MSG=󰣇
 BULLETTRAIN_PROMPT_ORDER=(
   #time
@@ -56,7 +54,8 @@ BULLETTRAIN_PROMPT_ORDER=(
   status
   #context
   dir
-  virtualenv
+  screen
+  rust
   git
 )
 
