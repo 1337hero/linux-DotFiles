@@ -1,0 +1,44 @@
+* {
+  font-family: "Noto Sans", "Font Awesome 6 Free";
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: #363a4f;
+  color: #ffffff;
+}
+
+#workspaces button {
+  padding: 0 8px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+#workspaces button.active {
+  background-color: rgb(166, 218, 149);
+}
+
+#workspaces button:hover {
+  background: inherit;
+  border-bottom: 2px solid #a6da95;
+}
+
+#clock,
+#memory,
+#pulseaudio,
+#custom-logout {
+  padding: 0 10px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+#clock {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#custom-logout {
+  color: #ed8796;
+  font-size: 16px;
+}
