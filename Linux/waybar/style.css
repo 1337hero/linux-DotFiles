@@ -1,10 +1,10 @@
 * {
-  font-family: "Noto Sans", "Font Awesome 6 Free";
-  font-size: 13px;
+  font-family: "Inter", "Font Awesome 6 Free";
+  font-size: 12px;
 }
 
 window#waybar {
-  background-color: #363a4f;
+  background-color: rgba(54, 58, 79, 0.5);
   color: #ffffff;
 }
 
@@ -27,15 +27,7 @@ window#waybar {
 #memory,
 #pulseaudio,
 #custom-logout {
-  padding: 0 10px;
   margin: 0 5px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-}
-
-#clock {
-  font-weight: bold;
-  font-size: 14px;
 }
 
 #custom-logout {
